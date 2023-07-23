@@ -1,0 +1,176 @@
+/* Fonts Customization */
+h1 {
+color: #FFF;
+font-family: 'Staatliches', cursive;
+font-size: 48px;
+font-weight: 400;
+}
+p {
+color: #FFF;
+font-family: 'Poppins';
+font-size: 20px;
+font-weight: 400;
+}
+legend {
+color: #535971;
+font-family: 'Staatliches';
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+}
+label { 
+color: #4E4958;
+font-family: 'Poppins';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+span {
+color: #9d98aa;
+font-size: 12px;
+line-height: 20px;
+}
+h3 {
+  color: #535971;
+  font-family: 'Staatliches';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+
+  margin-bottom: 1px;
+}
+.input-salada input {
+color: #a29caf;
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+padding-left: 12px;
+}
+
+/* Page Customization */
+header {
+  margin-top: 140px;
+}
+p {
+  margin-top: 18px;
+  margin-bottom: 58px;
+}
+body {
+  background: #EFEFEF;
+}
+body ::before {
+  background: #535971;
+  content: ''; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 436px;
+  z-index: -1;
+}
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+/* Form Customization */
+form {
+border-radius: 20px 20px 0px 0px;
+background: #FFF;
+width: 652px;
+height: auto;
+padding: 64px;
+}
+fieldset {
+  border: none;
+  margin-bottom: 32px;
+}
+#line {
+  display: flex;
+  border: 1px solid #E6E6F0;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  width: 622px;
+}
+.input-salada {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+}
+.input-salada label{
+  margin-bottom: 6px;
+}
+.input-salada label span{
+  margin-left: 8px;
+}
+#first-name, #last-name {
+  margin-right: 11px;
+  width: 294px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #E6E6F0);
+  background: var(--shapes-02, #FAFAFC);
+}
+#e-mail, #password, #mentor-name {
+  margin-right: 22px;
+  width: 622px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #E6E6F0);
+  background: var(--shapes-02, #FAFAFC);
+}
+#mentorship-1, #mentorship-2 {
+  width: 252px;
+  height: 56px;
+  margin-right: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #E6E6F0);
+  background: var(--shapes-02, #FAFAFC);
+}
+#mentorship-1-start, #mentorship-2-start {
+  width: 140px;
+  height: 56px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #E6E6F0);
+  background: var(--shapes-02, #FAFAFC);
+} 
+#mentorship-1-end, #mentorship-2-end {
+  width: 140px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #E6E6F0);
+  background: var(--shapes-02, #FAFAFC);
+}
+span:hover {
+  color: #535971;
+}
+
+/* Footer Customization */
+footer {
+  height: auto;
+  width: 638px;
+  background-color: #535971;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 71px;
+  border-radius: 0 0 20px 20px;
+}
+footer .button {
+  display: flex;
+  width: 608px;
+  height: 55.652px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #FF5374;
+  border: none;
+  color: #fff;
+}
+footer .button:hover {
+  background: #f5738d;
+}
+
+
